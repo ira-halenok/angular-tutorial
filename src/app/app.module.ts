@@ -14,6 +14,7 @@ import { MessageService } from './message.service';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TestComponent } from './test/test.component';
+import { Test2Component } from './test2/test2.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { TestComponent } from './test/test.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    TestComponent
+    TestComponent,
+    Test2Component
   ],
   imports: [
     BrowserModule,
